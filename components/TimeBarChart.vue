@@ -97,13 +97,15 @@ export default {
         lText: this.chartData[
           this.chartData.length - 1
         ].cumulative.toLocaleString(),
-        sText: `${this.$t('3/1 - ') ${this.chartData.slice(-1)[0].label} 
-        ${this.$t('累計値')}（${this.$t('前日比')}: ${this.displayCumulativeRatio} ${
+        sText: `${this.chartData.slice(-1)[0].label} ${this.$t(
+          '（3/2からの累計値）'
+        )}（${this.$t('前日比')}: ${this.displayCumulativeRatio} ${
           this.unit
         }）`,
         unit: this.unit
       }
     },
+
     displayData() {
       if (this.dataKind === 'transition') {
         return {
