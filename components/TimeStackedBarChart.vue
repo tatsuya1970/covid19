@@ -1,10 +1,7 @@
 <template>
   <data-view :title="title" :title-id="titleId" :date="date">
     <template v-slot:button>
-      <p class="Graph-Desc">
-        {{ $t('（注）2020年3月2日以降の数字です') }}
-        <br />
-      </p>
+      
       <data-selector v-model="dataKind" />
     </template>
     <bar
