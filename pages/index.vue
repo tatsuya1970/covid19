@@ -13,7 +13,7 @@
       :btn-text="$t('相談の手順を見る')"
     />
     <v-row class="DataBlock">
-      <confirmed-cases-details-card />
+      // <confirmed-cases-details-card />
       <confirmed-cases-number-card />
       <confirmed-cases-attributes-card />
       <tested-number-card />
@@ -49,7 +49,7 @@ export default {
     PageHeader,
     WhatsNew,
     StaticInfo,
-    ConfirmedCasesDetailsCard,
+    // ConfirmedCasesDetailsCard,
     ConfirmedCasesNumberCard,
     ConfirmedCasesAttributesCard,
     TestedNumberCard,
