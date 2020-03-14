@@ -104,7 +104,8 @@ export default {
       }
     },
     displayData() {
-      const colorArray = ['#00A040', '#00D154']
+      //検査実施数のグラフの色
+      const colorArray = ['#992f3b', '#ffffff'] 
       if (this.dataKind === 'transition') {
         return {
           labels: this.labels,
