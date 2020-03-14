@@ -92,7 +92,7 @@ export default {
       }
       return {
         lText: this.sum(this.cumulativeSum(this.chartData)).toLocaleString(),
-        sText: `${this.$t('{date}の全体累計', {
+        sText: `${this.$t('{date}の全体累計 (2020年3月2日以降の累計です)', {
           date: this.labels[this.labels.length - 1]
         })}`,
         unit: this.unit
