@@ -19,13 +19,10 @@
   "ja": {
     "検査実施数": "検査実施数",
     "県内": "県内",
+    "県内発生（疑い例・接触者調査）": "県内発生（疑い例・接触者調査）",
+    "その他": "その他",
     "件": {
       "tested": "件"
-    },
-  "ja-basic": {
-    "検査実施数": "けんさした かず",
-    "件": {
-      "tested": "けん"
     }
   }
 }
@@ -42,11 +39,11 @@ export default {
   data() {
     // 検査実施日別状況
     const inspectionsGraph = [
-      Data.inspections_summary.data['県内'],
+      Data.inspections_summary.data['都内'],
       Data.inspections_summary.data['その他']
     ]
     const inspectionsItems = [
-      this.$t('県内'),
+      this.$t('県内発生（疑い例・接触者調査）'),
       this.$t('その他')
     ]
     const inspectionsLabels = Data.inspections_summary.labels
