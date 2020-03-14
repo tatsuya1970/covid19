@@ -1,7 +1,7 @@
 <template>
   <v-app class="app">
     <div v-if="loading" class="loader">
-      <img src="/logo.svg" alt="広島県" />
+      <img src="/logo-Hiroshima.svg" alt="広島県" />
       <scale-loader color="#00A040" />
     </div>
     <div v-else-if="hasNavigation" class="appContainer">
