@@ -5,7 +5,7 @@
       :title="headerItem.title"
       :date="headerItem.date"
     />
-    <whats-new class="mb-4" :items="newsItems" />
+    
     
     <v-row class="DataBlock">
      
