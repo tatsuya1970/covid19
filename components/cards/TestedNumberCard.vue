@@ -19,7 +19,7 @@
   "ja": {
     "検査実施数": "検査実施数",
     "県内": "県内",
-    "県内発生（疑い例・接触者調査）": "県内発生（疑い例・接触者調査）",
+    "県内発生": "県内発生",
     "その他": "その他",
     "件": {
       "tested": "件"
@@ -43,7 +43,7 @@ export default {
       Data.inspections_summary.data['その他']
     ]
     const inspectionsItems = [
-      this.$t('県内発生（疑い例・接触者調査）'),
+      this.$t('県内発生'),
       this.$t('その他')
     ]
     const inspectionsLabels = Data.inspections_summary.labels
