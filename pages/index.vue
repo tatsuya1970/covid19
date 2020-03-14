@@ -65,7 +65,7 @@ export default {
       dischargesGraph,
       headerItem: {
         icon: 'mdi-chart-timeline-variant',
-        title: this.$t('県内の最新感染動向'),
+        title: this.$t('広島県内の最新感染動向'),
         date: Data.lastUpdate
       },
       newsItems: News.newsItems
@@ -74,7 +74,7 @@ export default {
   },
   head() {
     return {
-      title: this.$t('県内の最新感染動向')
+      title: this.$t('広島県内の最新感染動向')
     }
   }
 }
