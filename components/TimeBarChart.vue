@@ -98,7 +98,7 @@ export default {
           this.chartData.length - 1
         ].cumulative.toLocaleString(),
         sText: `${this.chartData.slice(-1)[0].label} ${this.$t(
-          '累計値'
+          'あ累計値'
         )}（${this.$t('前日比')}: ${this.displayCumulativeRatio} ${
           this.unit
         }）`,
