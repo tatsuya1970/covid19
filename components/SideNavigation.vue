@@ -46,21 +46,21 @@
       <v-footer class="SideNavigation-Footer">
         <div class="SideNavigation-SocialLinkContainer">
           <a
-            href="https://line.me/R/ti/p/%40tcu5165v"
+            href=""
             target="_blank"
             rel="noopener"
           >
             <img src="/line.png" alt="LINE" />
           </a>
           <a
-            href="https://twitter.com/hiroshima_pref"
+            href=""
             target="_blank"
             rel="noopener"
           >
             <img src="/twitter.png" alt="Twitter" />
           </a>
           <a
-            href="https://www.facebook.com/pref.hiroshima"
+            href=""
             target="_blank"
             rel="noopener"
           >
