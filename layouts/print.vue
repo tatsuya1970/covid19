@@ -1,7 +1,8 @@
 <template>
   <v-app class="app-print">
     <div v-if="loading" class="loader">
-      <img src="/logo-Hiroshima.svg" alt="広島県" />
+      //<img src="/logo-Hiroshima.svg" alt="広島県" />
+      <img src="/org-Hiroshima.png" alt="広島県" />
       <scale-loader color="#992f3b" />
     </div>
     <v-container v-else>
@@ -9,7 +10,8 @@
         <v-col :cols="12" :sm="6">
           <div class="PrintMeta-HeadingWrapper">
             <div class="PrintMeta-Logo">
-              <img src="/logo-Hiroshima.svg" alt="広島県" />
+              //<img src="/logo-Hiroshima.svg" alt="広島県" />
+              <img src="/org-Hiroshima.png" alt="広島県" />
             </div>
             <h1 class="PrintMeta-Heading">
               新型コロナウイルス感染症<br />対策サイト
