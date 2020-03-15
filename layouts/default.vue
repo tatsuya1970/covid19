@@ -1,7 +1,8 @@
 <template>
   <v-app class="app">
     <div v-if="loading" class="loader">
-      <img src="/logo-Hiroshima.svg" alt="広島県" />
+      // <img src="/logo-Hiroshima.svg" alt="広島県" />
+      <img src="/ogp.png" alt="広島県" />
       <scale-loader color="#992f3b" />
     </div>
     <div v-else-if="hasNavigation" class="appContainer">
@@ -78,7 +79,7 @@ export default Vue.extend({
       link: [
         {
           rel: 'canonical',
-          href: `https://stopcovid19.metro.tokyo.lg.jp${this.$route.path}`
+          href: `https://covid19-hiroshima.netlify.com/${this.$route.path}`
         }
       ]
     }
