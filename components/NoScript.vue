@@ -8,7 +8,8 @@
         }
       </style>
       <div class="noscript-heading">
-        <img src="/logo-Hiroshima.svg" :alt="$t('広島県')" />
+        //<img src="/logo-Hiroshima.svg" :alt="$t('広島県')" />
+        <img src="/opg-Hiroshima.png" :alt="$t('広島県')" />
         {{ $t('新型コロナウイルス感染症') }}<br />{{ $t('対策サイト') }}
       </div>
       <div class="noscript-body">
