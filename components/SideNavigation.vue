@@ -10,8 +10,7 @@
       </v-icon>
       <nuxt-link :to="localePath('/')" class="SideNavigation-HeadingLink">
         <div class="SideNavigation-Logo">
-          //<img src="/logo-Hiroshima.svg" :alt="$t('広島県')" />
-          <img src="/ogp-Hiroshima.svg" :alt="$t('広島県')" />
+          <img src="/ogp-Hiroshima.png" :alt="$t('広島県')" />
         </div>
         <h1 class="SideNavigation-Heading">
           {{ $t('【非公式】広島県') }}<br />
@@ -118,25 +117,11 @@ export default {
           title: this.$t('広島県内の最新感染動向'),
           link: this.localePath('/')
         },
-        {
-          icon: 'mdi-account-multiple',
-          title: this.$t('県民の皆様へ'),
-          link: 'https://www.pref.hiroshima.lg.jp/site/2019-ncov/'
-        },
-      
-        {
-          title: this.$t('知事からのメッセージ'),
-          link:
-            'https://www.pref.hiroshima.lg.jp/uploaded/attachment/380629.pdf'
-        },
+       
         {
           title: this.$t('当サイトについて'),
           link: this.localePath('/about')
-        },
-        {
-          title: this.$t('広島県公式ホームページ'),
-          link: 'https://www.pref.hiroshima.lg.jp/',
-          divider: true
+       
         }
       ]
     },
