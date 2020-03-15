@@ -24,7 +24,7 @@
               target="_blank"
               rel="noopener"
             >
-              {{ $t('オープンデータを入手') }}
+              {{ $t('データ入手元') }}
               <v-icon class="ExternalLinkIcon" size="15">
                 mdi-open-in-new
               </v-icon>
@@ -33,7 +33,7 @@
           <div>
             <a class="Permalink" :href="permalink()">
               <time :datetime="formattedDate">
-                {{ $t('{date} 更新', { date }) }}
+                {{ $t('{date} あ更新', { date }) }}
               </time>
             </a>
           </div>
