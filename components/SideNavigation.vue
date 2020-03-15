@@ -74,19 +74,7 @@
             <img src="/github.png" alt="GitHub" />
           </a>
         </div>
-        <small class="SideNavigation-Copyright">
-          {{ $t('このサイトの内容物は') }}
-          <a
-            rel="license"
-            target="_blank"
-            :href="$t('https://creativecommons.org/licenses/by/4.0/deed.ja')"
-          >
-            {{ $t('クリエイティブ・コモンズ 表示 4.0 ライセンス') }}
-          </a>
-          {{ $t('の下に提供されています。') }}
-          <br />
-          2020 Tokyo Metropolitan Government
-        </small>
+        
       </v-footer>
     </div>
   </div>
