@@ -33,7 +33,7 @@
           <div>
             <a class="Permalink" :href="permalink()">
               <time :datetime="formattedDate">
-                {{ $t('{date} あ更新', { date }) }}
+                {{ $t('{date} 更新', { date }) }}
               </time>
             </a>
           </div>
