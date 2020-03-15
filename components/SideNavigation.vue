@@ -10,7 +10,8 @@
       </v-icon>
       <nuxt-link :to="localePath('/')" class="SideNavigation-HeadingLink">
         <div class="SideNavigation-Logo">
-          <img src="/logo-Hiroshima.svg" :alt="$t('広島県')" />
+          //<img src="/logo-Hiroshima.svg" :alt="$t('広島県')" />
+          <img src="/ogp-Hiroshima.svg" :alt="$t('広島県')" />
         </div>
         <h1 class="SideNavigation-Heading">
           {{ $t('【非公式】広島県') }}<br />
