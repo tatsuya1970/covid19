@@ -14,7 +14,7 @@
         </div>
         <h1 class="SideNavigation-Heading">
           {{ $t('【非公式】広島県') }}<br />
-          {{ $t('新型コロナウイルス感染症') }}<br />{{ $t('対策サイト') }}
+          {{ $t('新型コロナウイルス感染症') }}<br />{{ $t('情報サイト') }}
         </h1>
       </nuxt-link>
     </header>
@@ -102,7 +102,7 @@ export default {
       return [
         {
           icon: 'mdi-chart-timeline-variant',
-          title: this.$t('広島県内の最新感染動向'),
+          title: this.$t('広島県内の感染動向'),
           link: this.localePath('/')
         },
        
