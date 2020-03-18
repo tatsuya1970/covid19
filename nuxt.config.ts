@@ -11,7 +11,7 @@ const config: Configuration = {
     htmlAttrs: {
       prefix: 'og: http://ogp.me/ns#'
     },
-    titleTemplate: '%s | 東京都 新型コロナウイルス感染症対策サイト',
+    titleTemplate: '%s | 広島県 非公式　新型コロナウイルス感染症情報サイト',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -19,60 +19,61 @@ const config: Configuration = {
         hid: 'description',
         name: 'description',
         content:
-          '当サイトは新型コロナウイルス感染症（COVID-19）に関する最新情報を提供するために、東京都が開設したものです。'
+          '当サイトは新型コロナウイルス感染症（COVID-19）に関する最新情報を提供するために、広島県の有志が開設したものです。'
       },
       {
         hid: 'og:site_name',
         property: 'og:site_name',
-        content: '東京都 新型コロナウイルス感染症対策サイト'
+        content: '広島県 非公式　新型コロナウイルス感染症情報サイト'
       },
       { hid: 'og:type', property: 'og:type', content: 'website' },
       {
         hid: 'og:url',
         property: 'og:url',
-        content: 'https://stopcovid19.metro.tokyo.lg.jp'
+        content: 'https://covid19-hiroshima.netlify.com/'
       },
       {
         hid: 'og:title',
         property: 'og:title',
-        content: '東京都 新型コロナウイルス感染症対策サイト'
+        content: '広島県 非公式　新型コロナウイルス感染症情報サイト'
       },
       {
         hid: 'og:description',
         property: 'og:description',
         content:
-          '当サイトは新型コロナウイルス感染症（COVID-19）に関する最新情報を提供するために、東京都が開設したものです。'
+          '当サイトは新型コロナウイルス感染症（COVID-19）に関する最新情報を提供するために、広島県の有志が開設したものです。'
       },
       {
         hid: 'og:image',
         property: 'og:image',
-        content: 'https://stopcovid19.metro.tokyo.lg.jp/ogp.png'
-      },
-      {
-        hid: 'twitter:card',
-        name: 'twitter:card',
-        content: 'summary_large_image'
-      },
-      {
-        hid: 'twitter:site',
-        name: 'twitter:site',
-        content: '@tokyo_bousai'
-      },
-      {
-        hid: 'twitter:creator',
-        name: 'twitter:creator',
-        content: '@tokyo_bousai'
-      },
-      {
-        hid: 'twitter:image',
-        name: 'twitter:image',
-        content: 'https://stopcovid19.metro.tokyo.lg.jp/ogp.png'
-      },
-      {
-        hid: 'fb:app_id',
-        property: 'fb:app_id',
-        content: '2879625188795443'
+        content: 'https://covid19-hiroshima.netlify.com/ogp-Hiroshima.png'
       }
+      //,
+//       {
+//         hid: 'twitter:card',
+//         name: 'twitter:card',
+//         content: 'summary_large_image'
+//       },
+//       {
+//         hid: 'twitter:site',
+//         name: 'twitter:site',
+//         content: '@tokyo_bousai'
+//       },
+//       {
+//         hid: 'twitter:creator',
+//         name: 'twitter:creator',
+//         content: '@tokyo_bousai'
+//       },
+//       {
+//         hid: 'twitter:image',
+//         name: 'twitter:image',
+//         content: 'https://stopcovid19.metro.tokyo.lg.jp/ogp.png'
+//       },
+//       {
+//         hid: 'fb:app_id',
+//         property: 'fb:app_id',
+//         content: '2879625188795443'
+//       }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
@@ -221,7 +222,7 @@ const config: Configuration = {
     hardSource: process.env.NODE_ENV === 'development'
   },
   manifest: {
-    name: '東京都 新型コロナウイルス感染症対策サイト',
+    name: '広島県 新型コロナウイルス感染症情報サイト',
     theme_color: '#00a040',
     background_color: '#ffffff',
     display: 'standalone',
