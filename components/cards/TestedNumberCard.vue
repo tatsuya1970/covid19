@@ -10,6 +10,7 @@
       :labels="inspectionsLabels"
       :unit="$t('件.tested')"
       :url="'https://www.pref.hiroshima.lg.jp/soshiki/50/korona-kensazisseki.html'"
+      :data-labels="inspectionsDataLabels"
     />
     <!-- 件.tested = 検査数 -->
   </v-col>
