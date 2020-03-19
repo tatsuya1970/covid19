@@ -48,6 +48,7 @@ export default {
       this.$t('その他')
     ]
     const inspectionsLabels = Data.inspections_summary.labels
+    const inspectionsDataLabels = [this.$t('県内'), this.$t('その他')]
 
     const data = {
       Data,
