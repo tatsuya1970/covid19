@@ -10,7 +10,7 @@
       :labels="inspectionsLabels"
       :unit="$t('件.tested')"
       :url="'https://www.pref.hiroshima.lg.jp/soshiki/50/korona-kensazisseki.html'"
-      :data-labels="inspectionsDataLabels"
+      
     />
     <!-- 件.tested = 検査数 -->
   </v-col>
@@ -41,7 +41,7 @@ export default {
   data() {
     // 検査実施日別状況
     const inspectionsGraph = [
-      Data.inspections_summary.data['県内'],
+      Data.inspections_summary.data['都内'],
       Data.inspections_summary.data['その他']
     ]
     const inspectionsItems = [
@@ -49,8 +49,7 @@ export default {
       this.$t('その他')
     ]
     const inspectionsLabels = Data.inspections_summary.labels
-    const inspectionsDataLabels = [this.$t('県内'), this.$t('その他')]
-
+    
     const data = {
       Data,
       inspectionsGraph,
