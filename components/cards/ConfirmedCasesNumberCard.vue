@@ -51,7 +51,7 @@ import TimeBarChart from '@/components/TimeBarChart.vue'
      TimeBarChart
   },
   data() {
-     感染者数グラフ
+     //感染者数グラフ
     const patientsGraph = formatGraph(Data.patients_summary.data)
 
     const data = {
