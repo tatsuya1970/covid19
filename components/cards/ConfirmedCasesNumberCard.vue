@@ -42,23 +42,23 @@
 </i18n>
 
 <script>
-import Data from '@/data/data.json'
-import formatGraph from '@/utils/formatGraph'
-import TimeBarChart from '@/components/TimeBarChart.vue'
+// import Data from '@/data/data.json'
+//import formatGraph from '@/utils/formatGraph'
+// import TimeBarChart from '@/components/TimeBarChart.vue'
 
-export default {
-  components: {
-    TimeBarChart
-  },
-  data() {
+// export default {
+  // components: {
+    // TimeBarChart
+  //},
+  //data() {
     // 感染者数グラフ
-    const patientsGraph = formatGraph(Data.patients_summary.data)
+    //const patientsGraph = formatGraph(Data.patients_summary.data)
 
-    const data = {
-      Data,
-      patientsGraph
-    }
-    return data
-  }
-}
-</script>
+    //const data = {
+    //  Data,
+    //  patientsGraph
+    //}
+    //return data
+  //}
+//}
+//</script>
