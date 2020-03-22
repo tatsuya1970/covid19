@@ -87,7 +87,7 @@ export default {
       if (this.dataKind === 'transition') {
         return {
           lText: `${this.chartData.slice(-1)[0].transition.toLocaleString()}`,
-          sText: `${this.$t('{date}')}${this.$t('実績値')}（${this.$t('前日比')}: ${
+          sText: `${this.$t('{date}の実績値',{date: this.labels[this.labels.length - 1]})}（${this.$t('前日比')}: ${
             this.displayTransitionRatio
           } ${this.unit}）`,
           unit: this.unit
