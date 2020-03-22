@@ -92,10 +92,7 @@ export default {
           //} ${this.unit}）`,
           
           lText: this.chartData.slice(-1)[0].transition.toLocaleString(),
-          sText: `${this.$t('{date}の実績', {
-            date: this.labels[this.labels.length - 1]
-          })}`,
-
+          sText: `${this.chartData.slice(-1)[0].label}`,
           
           unit: this.unit
         }
