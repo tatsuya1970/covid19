@@ -94,7 +94,7 @@ export default {
           lText: this.chartData.slice(-1)[0].transition.toLocaleString(),
           sText: `${this.chartData.slice(-1)[0].label} ${this.$t(
           '単日の実績'
-        )}（${this.$t('前日比')}: ${this.displayCumulativeRatio} ${
+        )}（${this.$t('前日比')}: ${this.displayTransitionRatio} ${
           this.unit
         }）`,
           
