@@ -40,8 +40,9 @@
     "退院※": "退院※",
     "福山市": "福山市",
     "東京都": "東京都",
-    "広島市": "広島市"
-  },
+    "広島市": "広島市",
+    "尾道市": "尾道市"
+    },
   "en": {
     "都内の最新感染動向": "Latest updates on COVID-19 in Tokyo",
     "自分や家族の症状に不安や心配があればまずは電話相談をどうぞ": "Contact the Telephone Advisory Center if you have any concerns.",
@@ -83,7 +84,8 @@
     "退院※": "Discharge*",
     "福山市": "Fukuyama city",
     "東京都": "Tokyo",
-    "広島市": "Hiroshima city"
+    "広島市": "Hiroshima city",
+    "尾道市": "Onomiti city"
   },
   "zh-cn": {
     "都内の最新感染動向": "东京都最新新型冠状病毒感染情况",
