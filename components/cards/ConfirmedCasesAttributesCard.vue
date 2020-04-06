@@ -34,7 +34,8 @@
     "福山市": "福山市",
     "東京都": "東京都",
     "広島市": "広島市",
-    "尾道市": "尾道市"
+    "尾道市": "尾道市",
+    "府中町": "府中町"
   },
   "en": {
     "陽性患者の属性": "Confirmed patient attributes",
@@ -56,7 +57,8 @@
     "福山市": "Fukuyama city",
     "東京都": "Tokyo",
     "広島市": "Hiroshima city",
-    "尾道市": "Onomiti city"
+    "尾道市": "Onomiti city",
+    "府中町": "Fuchu town"
   },
   "zh-cn": {
     "陽性患者の属性": "确诊患者的信息",
