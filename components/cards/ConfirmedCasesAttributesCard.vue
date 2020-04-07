@@ -35,7 +35,8 @@
     "東京都": "東京都",
     "広島市": "広島市",
     "尾道市": "尾道市",
-    "府中町": "府中町"
+    "府中町": "府中町",
+    "江田島市": "江田島市"
   },
   "en": {
     "陽性患者の属性": "Confirmed patient attributes",
@@ -58,7 +59,8 @@
     "東京都": "Tokyo",
     "広島市": "Hiroshima city",
     "尾道市": "Onomiti city",
-    "府中町": "Fuchu town"
+    "府中町": "Fuchu town",
+    "江田島市": "Etajima city"
   },
   "zh-cn": {
     "陽性患者の属性": "确诊患者的信息",
