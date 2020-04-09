@@ -36,7 +36,9 @@
     "広島市": "広島市",
     "尾道市": "尾道市",
     "府中町": "府中町",
-    "江田島市": "江田島市"
+    "江田島市": "江田島市",
+    "三次市": "三次市",
+    "東広島市": "東広島市"
   },
   "en": {
     "陽性患者の属性": "Confirmed patient attributes",
@@ -60,7 +62,9 @@
     "広島市": "Hiroshima city",
     "尾道市": "Onomiti city",
     "府中町": "Fuchu town",
-    "江田島市": "Etajima city"
+    "江田島市": "Etajima city",
+    "三次市": "Miyoshi city",
+    "東広島市": "HigashiHiroshima city"
   },
   "zh-cn": {
     "陽性患者の属性": "确诊患者的信息",
