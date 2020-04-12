@@ -18,7 +18,33 @@
   </div>
 </template>
 
-<i18n src="./index.i18n.json"></i18n>
+// <i18n src="./index.i18n.json"></i18n>
+
+<i18n>
+{
+  "ja": {
+    "広島県内の最新感染動向": "広島県内の最新感染動向"
+  },
+  "en": {
+    "広島県内の最新感染動向": "Latest updates on COVID-19 in Hiroshima"
+  },
+  "zh-cn": {
+     "広島県内の最新感染動向": "広島県内の最新感染動向"
+  },
+  "zh-tw": {
+    "広島県内の最新感染動向": "広島県内の最新感染動向"
+  },
+  "ko": {
+     "広島県内の最新感染動向": "広島県内の最新感染動向"
+  },
+  "ja-basic": {
+     "広島県内の最新感染動向": "広島県内の最新感染動向"
+  }
+}
+</i18n>
+
+
+
 
 <script>
 import PageHeader from '@/components/PageHeader.vue'
