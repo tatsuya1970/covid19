@@ -7,7 +7,7 @@
       :chart-data="patientsGraph"
       :date="Data.patients.date"
       :unit="$t('人')"
-      :url="'https://www.pref.hiroshima.lg.jp/soshiki/57/bukan-coronavirus.html'"
+      :url="'https://www.pref.hiroshima.lg.jp/soshiki/50/korona-kensazisseki.html'"
     />
   </v-col>
 </template>
