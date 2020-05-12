@@ -7,7 +7,7 @@
       :chart-option="{}"
       :date="Data.patients.date"
       :info="sumInfoOfPatients"
-      :url="'https://www.pref.hiroshima.lg.jp/soshiki/57/bukan-coronavirus.html'"
+      :url="'https://www.pref.hiroshima.lg.jp/site/hcdc/covid19-kanjya.html'"
     />
   </v-col>
 </template>
